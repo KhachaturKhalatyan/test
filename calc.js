@@ -1,3 +1,4 @@
+var digit = prompt("Enter Number");
 function f(digit){
   var b = parseInt(digit/2);
   var c = digit%2;
@@ -10,4 +11,4 @@ function f(digit){
   return  Number(f(digit) + res);
 }
 
-console.log(f(5));
+console.log(f(digit));
